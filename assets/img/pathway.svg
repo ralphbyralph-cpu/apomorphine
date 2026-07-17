@@ -1,0 +1,60 @@
+<svg viewBox="0 0 560 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram: apomorphine activates dopamine receptors in the brain, signaling to produce an erection">
+  <defs>
+    <linearGradient id="pgold" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#EBCE72"/><stop offset="1" stop-color="#B8912E"/>
+    </linearGradient>
+    <radialGradient id="pcrim" cx="0.35" cy="0.3" r="0.85">
+      <stop stop-color="#EF4B5E"/><stop offset="1" stop-color="#8E1B2E"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Step 1: brain / hypothalamus (centered at 78,100 to align with the circles) -->
+  <g>
+    <path d="M78 60 C97 60 113 73 113 91 C121 95 121 109 113 115 C115 129 100 139 82 135 C79 139 77 139 74 135 C56 139 41 129 43 115 C35 109 35 95 43 91 C43 73 59 60 78 60 Z"
+          fill="#FBF6EA" stroke="url(#pgold)" stroke-width="3.5"/>
+    <g fill="none" stroke="#C6A24B" stroke-width="2.4" stroke-linecap="round" opacity="0.7">
+      <path d="M78 66 C71 79 85 87 78 100 C71 113 85 122 78 132"/>
+      <path d="M58 78 C66 87 54 97 62 107"/>
+      <path d="M98 78 C90 87 102 97 94 107"/>
+    </g>
+    <circle cx="78" cy="100" r="5.5" fill="url(#pcrim)"/>
+  </g>
+  <text x="78" y="176" text-anchor="middle" font-family="'Space Grotesk',sans-serif" font-size="14" font-weight="700" fill="#1A1A1E">Brain</text>
+  <text x="78" y="194" text-anchor="middle" font-family="Inter,sans-serif" font-size="11.5" fill="#5b5b62">Hypothalamus</text>
+
+  <!-- arrow 1 -->
+  <path d="M150 100 H208" stroke="url(#pcrim)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M204 92 L216 100 L204 108 Z" fill="url(#pcrim)"/>
+
+  <!-- Step 2: dopamine receptor -->
+  <g>
+    <circle cx="280" cy="100" r="46" fill="#FBF6EA" stroke="url(#pgold)" stroke-width="3.5"/>
+    <g stroke="url(#pcrim)" stroke-width="3" stroke-linecap="round">
+      <path d="M280 100 L280 62 M280 100 L312 118 M280 100 L250 120"/>
+    </g>
+    <circle cx="280" cy="62" r="7" fill="url(#pcrim)"/>
+    <circle cx="312" cy="118" r="6" fill="url(#pcrim)"/>
+    <circle cx="250" cy="120" r="6" fill="url(#pcrim)"/>
+    <circle cx="280" cy="100" r="8" fill="url(#pgold)"/>
+  </g>
+  <text x="280" y="176" text-anchor="middle" font-family="'Space Grotesk',sans-serif" font-size="14" font-weight="700" fill="#1A1A1E">D1 / D2 Receptors</text>
+  <text x="280" y="194" text-anchor="middle" font-family="Inter,sans-serif" font-size="11.5" fill="#5b5b62">Apomorphine activates</text>
+
+  <!-- arrow 2 -->
+  <path d="M342 100 H400" stroke="url(#pcrim)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M396 92 L408 100 L396 108 Z" fill="url(#pcrim)"/>
+
+  <!-- Step 3: signal / erection -->
+  <g>
+    <circle cx="472" cy="100" r="46" fill="#FBF6EA" stroke="url(#pgold)" stroke-width="3.5"/>
+    <path d="M452 100 q10 -26 20 0 q10 26 20 0" fill="none" stroke="url(#pcrim)" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M456 116 q16 -10 32 0" fill="none" stroke="#C6A24B" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <text x="472" y="176" text-anchor="middle" font-family="'Space Grotesk',sans-serif" font-size="14" font-weight="700" fill="#1A1A1E">Nerve Signal</text>
+  <text x="472" y="194" text-anchor="middle" font-family="Inter,sans-serif" font-size="11.5" fill="#5b5b62">Blood flow &amp; erection</text>
+
+  <!-- caption strip -->
+  <text x="280" y="248" text-anchor="middle" font-family="Inter,sans-serif" font-size="12.5" fill="#8b8b92">
+    Central action: apomorphine works in the brain, not directly on blood vessels.
+  </text>
+</svg>

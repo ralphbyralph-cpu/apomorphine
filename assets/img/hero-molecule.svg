@@ -1,0 +1,67 @@
+<svg viewBox="40 78 320 288" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Skeletal structure of apomorphine">
+  <defs>
+    <linearGradient id="hgold" x1="90" y1="100" x2="320" y2="270" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E6C766"/><stop offset="0.55" stop-color="#C6A24B"/><stop offset="1" stop-color="#A9821F"/>
+    </linearGradient>
+    <linearGradient id="hcrim" x1="90" y1="240" x2="240" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E23A4E"/><stop offset="1" stop-color="#8E1B2E"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#C6A24B" stop-opacity="0.12"/>
+      <stop offset="0.6" stop-color="#E23A4E" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#E23A4E" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <circle cx="196" cy="216" r="172" fill="url(#halo)"/>
+
+  <!-- ===== GOLD: aromatic rings A & D + biaryl ===== -->
+  <g stroke="url(#hgold)" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- ring A perimeter -->
+    <path d="M150 104 L190 127 L190 173 L150 196 L110 173 L110 127 Z"/>
+    <!-- ring D perimeter -->
+    <path d="M270 173 L310 196 L310 242 L270 265 L230 242 L230 196 Z"/>
+    <!-- biaryl bond joining the two aromatic rings -->
+    <path d="M190 173 L230 196"/>
+  </g>
+  <!-- aromatic inner double-bond lines -->
+  <g stroke="url(#hgold)" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.9">
+    <path d="M119 128.8 L147 112.7"/>
+    <path d="M184 134 L184 166"/>
+    <path d="M147 187.4 L119 171.3"/>
+    <path d="M273 181.7 L301 197.8"/>
+    <path d="M301 240.3 L273 256.4"/>
+    <path d="M236 235 L236 203"/>
+  </g>
+
+  <!-- ===== CRIMSON: aliphatic bridge + N ring ===== -->
+  <g stroke="url(#hcrim)" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- ring B aliphatic bonds (C7, C6a) -->
+    <path d="M150 196 L150 242 L190 265 L230 242"/>
+    <!-- ring C (nitrogen ring) -->
+    <path d="M190 265 L190 311 L150 334 L110 311 L110 265 L150 242"/>
+    <!-- N-methyl -->
+    <path d="M190 311 L228 333"/>
+    <!-- catechol C–O bonds -->
+    <path d="M110 127 L82 110"/>
+    <path d="M110 173 L82 190"/>
+  </g>
+
+  <!-- stereocenter hashed wedge (C6a–H) -->
+  <g stroke="url(#hcrim)" stroke-width="2.4" stroke-linecap="round">
+    <path d="M198 267.2 L201 272.8"/>
+    <path d="M203.8 269.8 L207.8 277.2"/>
+    <path d="M209.8 272.2 L214.6 281.4"/>
+    <path d="M215.6 274.7 L221.4 285.7"/>
+  </g>
+
+  <!-- atom labels -->
+  <g font-family="Arial, sans-serif" font-weight="700" font-size="21" fill="#8E1B2E">
+    <text x="78" y="117" text-anchor="end">HO</text>
+    <text x="78" y="197" text-anchor="end">HO</text>
+    <text x="230" y="292">H</text>
+  </g>
+  <!-- N with light mask so bonds don't cross the letter -->
+  <circle cx="190" cy="311" r="10" fill="#FBF7EF"/>
+  <text x="190" y="318" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="21" fill="#8E1B2E">N</text>
+</svg>

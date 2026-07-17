@@ -1,0 +1,52 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Apomorphine molecule logo">
+  <defs>
+    <linearGradient id="lgold" x1="30" y1="20" x2="70" y2="80" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E6C766"/><stop offset="1" stop-color="#B8912E"/>
+    </linearGradient>
+    <linearGradient id="lcrim" x1="60" y1="35" x2="100" y2="100" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E23A4E"/><stop offset="1" stop-color="#8E1B2E"/>
+    </linearGradient>
+    <linearGradient id="lring" x1="18" y1="95" x2="105" y2="20" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#33333A"/><stop offset="0.55" stop-color="#7A2230"/><stop offset="1" stop-color="#D62B44"/>
+    </linearGradient>
+  </defs>
+
+  <!-- broken gradient orbit ring -->
+  <circle cx="60" cy="60" r="52" fill="none" stroke="url(#lring)" stroke-width="6.5"
+          stroke-linecap="round" stroke-dasharray="200 20 84 22"/>
+
+  <!-- GOLD: left aromatic ring + central bonds -->
+  <g stroke="url(#lgold)" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M45 21 L58 29 L58 43 L45 51 L33 43 L33 29 Z"/>
+    <path d="M55 31 L55 41"/>
+    <path d="M58 43 L71 51"/>
+    <path d="M45 51 L45 65 L58 73"/>
+  </g>
+
+  <!-- CRIMSON: right aromatic ring + nitrogen ring + substituents -->
+  <g stroke="url(#lcrim)" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M84 43 L96 51 L96 65 L84 73 L71 65 L71 51 Z"/>
+    <path d="M74 53 L74 63"/>
+    <path d="M58 73 L58 87 L45 95 L33 87 L33 73 L45 65"/>
+    <path d="M58 87 L70 95"/>
+    <path d="M33 29 L24 23"/>
+    <path d="M33 43 L24 49"/>
+  </g>
+
+  <!-- ball atoms -->
+  <g fill="url(#lcrim)">
+    <circle cx="96" cy="51" r="4"/>
+    <circle cx="84" cy="73" r="3.4"/>
+    <circle cx="58" cy="73" r="3.4"/>
+    <circle cx="58" cy="87" r="4"/>
+    <circle cx="45" cy="95" r="3.4"/>
+    <circle cx="33" cy="87" r="3.4"/>
+    <circle cx="24" cy="23" r="4"/>
+    <circle cx="24" cy="49" r="4"/>
+    <circle cx="70" cy="95" r="3"/>
+  </g>
+  <g fill="url(#lgold)">
+    <circle cx="45" cy="21" r="3"/>
+    <circle cx="84" cy="43" r="3"/>
+  </g>
+</svg>
